@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5d4a8e685eee054bd8887954
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "jahara",
+    "subscribedToChannel": "jahara shoppe"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5d4a8e685eee054bd8887954
+
+###
+
+PATCH http://localhost:3000/subscribers/5d4a8e685eee054bd8887954
+Content-Type: application/json
+
